@@ -241,11 +241,11 @@ describe('OpenAPI v3', () => {
           asClass: true,
         },
         types: {
-          enums: 'typescript',
+          enums: 'typescript+namespace',
         },
       }),
       description: 'generate TypeScript enums',
-      name: 'v3_enums_typescript',
+      name: 'v3_enums_typescript_namespace',
     },
     {
       config: createConfig({
